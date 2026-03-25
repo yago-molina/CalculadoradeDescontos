@@ -20,4 +20,4 @@ Este projeto faz parte das atividades práticas de aprendizagem do curso de **De
 ## 🛠️ Como executar
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/yago-molina/CalculadoradeDescontos.git](https://github.com/yago-molina/CalculadoradeDescontos.git)
+   git clone https://github.com/yago-molina/CalculadoradeDescontos.git
