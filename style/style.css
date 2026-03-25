@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #777777;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    width: 330px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px #888888;
+    text-align: center;
+    border: 1px solid #999999;
+}
+
+.card h2 {
+    margin: 0 0 20px;
+    color: #333333;
+    font-size: 22px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    color: #333333;
+    margin-bottom: -5px;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid #aaaaaa;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #0000ff;
+    outline: 2px solid #ccccff;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #0000ff;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0000aa;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-style: dotted;
+    border-radius: 15px;
+    text-align: left;
+}
+
+#resultado p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333333;
+}
+
+#out-lucro {
+    color: #00d400;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
